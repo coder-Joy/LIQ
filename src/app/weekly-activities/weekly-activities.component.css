@@ -1,0 +1,30 @@
+.weekly-table{
+    width: 80%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background: #1233fa;
+    padding: 20px 0;
+    text-align: start;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.weekly-body{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+    background: #f8f8ff;
+}
+.weekly-body div{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 5px 10px;
+}
+.weekly-body div h1{
+    font-size: xx-large;
+    font-weight: 500;
+}

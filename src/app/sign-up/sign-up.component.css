@@ -1,0 +1,14 @@
+:host(){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[text]{
+    width: 50vw;
+    height: 10px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+}

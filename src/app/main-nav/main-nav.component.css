@@ -1,0 +1,49 @@
+header{
+    width: 100vw;
+    height: fit-content;
+    padding: 0;
+    background: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20%;
+    margin: 0;
+}
+
+.left ul{
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.right{    
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-between;
+}
+.sign-up{
+    border: 2px solid black;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+.login{
+    border: 2px solid black;
+    font-weight: 300;
+    font-variant-caps: all-petite-caps;
+    border-radius: 5px;
+}
+li a{
+    text-decoration: none;
+}
