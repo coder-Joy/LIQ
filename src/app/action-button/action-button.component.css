@@ -1,0 +1,31 @@
+:host(){
+    width: 80%;
+}
+ul{
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    margin: 0 0 0 6px;
+    padding: 0;
+}
+
+ul li{
+    margin: 0 3px;
+    border: solid 2px black;
+    border-radius: 3px;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 3px;
+    color: black;
+}
+
+.login{
+    background: blue;
+}
+.sign-up{
+    background: red;
+}

@@ -1,0 +1,13 @@
+<form action="" [formGroup]="signUpForm" (ngSubmit)="onSubmit()">
+    <label for="name">Name</label>
+    <input type="text" formControlName="name">
+    
+    <label for="age">Age</label>
+    <input type="number" formControlName="age" >
+
+    <label for="password">Password</label>
+    <input type="password" formControlName="password" >
+
+    <input type="submit" value="Submit"
+    (click)="$event.preventDefault()" (click)="sub()">
+</form>

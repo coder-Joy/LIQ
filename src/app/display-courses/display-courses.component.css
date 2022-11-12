@@ -1,0 +1,27 @@
+:host(){
+    scrollbar-width: 1px;
+    background: #245234 !important;
+}
+:host()::-webkit-scrollbar{
+    width: 1px;
+    background-color: blue;
+}
+ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+ul li{
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    margin: 2px 4px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.new-course{
+    height: 200px;
+    overflow-x: hidden;
+}
